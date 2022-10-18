@@ -10,6 +10,10 @@
     "build-storybook": "build-storybook",
     "build-lib": "rollup -c"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trehansangpriya/search-select-react"
+  },
   "author": "Trehan Sangpriya",
   "license": "MIT",
   "devDependencies": {
