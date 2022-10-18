@@ -1,6 +1,6 @@
 {
   "name": "search-select-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React component that accepts data Array of Objects and headers to search on multiple conditions and perform actions on select using click and keyboard events",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -14,6 +14,20 @@
     "type": "git",
     "url": "https://github.com/trehansangpriya/search-select-react"
   },
+  "keywords": [
+    "react",
+    "search",
+    "select",
+    "search-select",
+    "search-select-react",
+    "react-search",
+    "react-select",
+    "react-search-select",
+    "react-search-select-component",
+    "nextjs-search-select",
+    "nextjs-search-select-component",
+    "nextjs-search-select-react"
+  ],
   "author": "Trehan Sangpriya",
   "license": "MIT",
   "devDependencies": {

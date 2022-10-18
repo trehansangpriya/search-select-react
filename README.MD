@@ -4,9 +4,13 @@ A React component that accepts data Array of Objects and headers to search on mu
 
 ## Installation
 
-`npm install search-select-react`
-or
-`yarn add search-select-react`
+```bash
+npm install search-select-react
+```
+
+```bash
+yarn add search-select-react
+```
 
 ## Usage
 
@@ -63,7 +67,24 @@ const App = () => {
 export default App;
 ```
 
-## Props
+## Styling
+
+The component by default has no styling. You can style it using your own CSS or any css library like tailwindcss using the different class props available.
+
+### List of styling class props
+
+| Prop Name | Description | Default | Notes |
+| --- | --- | --- | --- |
+| wrapperClass | Class for the wrapper div | '' | |
+| labelClass | Class for the label | '' | |
+| inputClass | Class for the input | '' | |
+| helperTextClass | Class for the helper text | '' | |
+| resultContainerClass | Class for the result container | '' | |
+| resultItemClass | Class for the result item | '' | |
+| resultItemActiveClass | Class for the active result item | '' | Active State should be handled in the CSS |
+| resultItemHoverClass | Class for the hovered result item | '' | Hover State should be handled in the CSS |
+
+## All Props
 
 | Prop Name | Type | Description | Required | Default |
 | --- | --- | --- | --- | --- |
@@ -96,7 +117,7 @@ export default App;
 
 ## License
 
-MIT © [trehansangpriya](github.com/trehansangpriya)
+MIT © [trehansangpriya](https://github.com/trehansangpriya)
 
 ## Author
 
@@ -105,6 +126,7 @@ MIT © [trehansangpriya](github.com/trehansangpriya)
 [Website](https://trehansangpriya.in)
 [LinkedIn](https://linkedin.com/in/trehan-sangpriya)
 [Twitter](https://twitter.com/trehansangpriya)
+[GitHub](https://github.com/trehansangpriya)
 
 ## Show your support
 
